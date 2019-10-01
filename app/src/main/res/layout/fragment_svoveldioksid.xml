@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:background="@drawable/white_background">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+        <TextView
+                android:text="Svoveldioksid"
+                android:layout_width="325dp"
+                android:layout_height="45dp"
+                android:id="@+id/text_nitroInfo"
+                android:fontFamily="sans-serif-medium"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textSize="36sp"
+                android:textColor="@color/FHIblaaVanlig"
+                app:layout_constraintVertical_bias="0.04" app:layout_constraintHorizontal_bias="0.372"/>
+
+        <TextView
+                android:id="@+id/text_sistEndretHelse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sist endret: 9. Mai 2019 av Thao Tran"
+                android:textSize="13dp"
+                android:layout_below="@id/text_fragPartikler"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintHorizontal_bias="0.08"
+                app:layout_constraintVertical_bias="0.128"/>
+
+        <TextView
+                android:id="@+id/txt_svov_info"
+                android:layout_width="378dp"
+                android:layout_height="585dp"
+                android:text="@string/text_svov_info"
+                android:textSize="15dp"
+                android:textColor="@color/FHIblaaVanlig"
+                android:layout_below="@id/text_sistEndretHelse"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintHorizontal_bias="0.484"
+                app:layout_constraintVertical_bias="0.924"/>
+
+
+        <!-- Må ha dette textViewet, hvis ikke klikker alt. Herifra-->
+        <TextView
+                android:id="@+id/txt_tiltak_del2"
+                android:layout_width="405dp"
+                android:layout_height="717dp"
+                android:text=""
+                android:textSize="15dp"
+                android:textColor="@color/FHIblaaVanlig"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintVertical_bias="1.0"/>
+
+        <!-- Ned hit-->
+
+
+
+
+    </android.support.constraint.ConstraintLayout>
+
+
+
+</ScrollView>

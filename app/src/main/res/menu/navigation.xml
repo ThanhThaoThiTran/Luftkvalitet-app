@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Inneholder informasjon om elementene i bottom navigation bar (ic+\ons og tekst) -->
+
+
+    <item
+            android:id="@+id/navigation_maalestasjon"
+            android:icon="@drawable/ic_marker"
+            android:title="@string/text_maalestasjon"/>
+    <item
+            android:id="@+id/navigation_kart"
+            android:icon="@drawable/ic_language"
+            android:title="@string/text_kart"/>
+    <item
+            android:id="@+id/navigation_favoritter"
+            android:icon="@drawable/ic_favoritter"
+            android:title="@string/text_favoritter"/>
+
+    <item
+            android:id="@+id/navigation_info"
+            android:icon="@drawable/ic_comment"
+            android:title="@string/text_info"/>
+
+</menu>

@@ -1,0 +1,334 @@
+<resources>
+
+    <string name="text_maalestasjon">Målestasjon</string>
+    <string name="app_name">luftkvalitetAlfa</string>
+    <string name="text_favoritter">Favoritter</string>
+    <string name="text_statistikk">Statistikk</string>
+    <string name="text_kart">Kart</string>
+    <string name="text_varslinger">Varslinger</string>
+    <string name="text_info">Info</string>
+    <string name="title_home">Home</string>
+    <string name="title_activity_bottom_navigation_bar">bottomNavigationBar</string>
+    <string name="text_use_permission">Finn luftkvaliteten akkurat der du er</string>
+    <string name="text_location_button">Finn min posisjon</string>
+    <string name="maybe_later_button">Kanskje senere</string>
+    <string name="text_thank_you">Appen er basert på data fra MET</string>
+    <string name="button_welcome">Velkommen</string>
+    <string name="button_get_notification">Slå på varslinger</string>
+    <string name= "text_get_notification">Få varlsinger når luftkvaliteten er dårlig</string>
+    <string name= "text_målestasjon_postCode"> </string>
+    <string name="txt_alert">
+        Vil du legge posisjonen i favoritter?
+    </string>
+
+
+    <string name="text_målestasjon">Målestasjon</string>
+    <string name="text_måleverdi">Måleverdi: 0.0µg/m³</string>
+    <string name="text_status">Status: </string>
+
+    <string name="text_nitrogendioksid">%3</string>
+    <string name="text_ozon">%17</string>
+    <string name="text_svevestøv">%62</string>
+    <string name="text_karbondioksid">%19</string>
+    <string name="text_benzen">%8</string>
+    <string name="text_svoveldioksid">%11</string>
+
+
+    <!-- TILTAK INFORMASJON (FRAGMENT_TILTAK)-->
+
+    <string name="text_tiltak_info">
+         I flere byer og tettsteder er det nødvendig å gjennomføre
+        tiltak for å bedre luftkvaliteten.
+        Tiltakene som kan redusere utslipp og gasser er
+        gjøremål vi med små step kan legge inn i våre
+        hverdagslige rutiner.
+
+    </string>
+    <string name="text_tiltak_tittel_1">
+        Kollektivtransport
+    </string>
+    <string name="text_tiltak_1">
+        Det alternativet som reduserer biltrafikken uten å
+        endre radikalt på den mobiliteten vi er blitt så vant
+        til, er i manges øyne kollektivtrafikk. Gode tilbud på
+        for eksempel buss, tog, trikk og hurtgibåt kan gjøre
+        det lettere for alle og enhver å sette igjen bilen
+        hjemme og heller reise kollektivt. Ved å utnytte slike
+        tilbud vil vi kun få én utslippskilde for flere personer.
+        Utslippet hver enkelt reisende ellers ville medført, vil bli markant nedsatt
+        og vi vil få et mye mindre støvutslipp i byene.
+    </string>
+    <string name="text_tiltak_tittel_2">
+        Spis mindre kjøtt
+    </string>
+    <string name="text_tiltak_2">
+        Utslipp fra kjøttindustrien utgjør ca 20 % av
+        verdens totale klimagassutslipp. En kjøttfri
+        middag reduserer klimagassutslippene
+        anslagsvis med 0,5 kg.  Det er dessuten sunt
+        å spise mer grønnsaker. Det vil være store
+        forskjeller på hvor mye klimagassutslipp
+        man sparer basert på type kjøtt, hvordan
+        kjøttet er fremstilt og hvor mye man spiser.
+        Dersom du skal og ønsker å spise kjøtt vil et alternativ være at det er mye bedre for
+        klimaet å spise viltkjøtt fremfor kjøtt fra storindustri.
+    </string>
+
+    <!-- HELSE INFORMASJON (FRAGMENT_HELSE)-->
+
+    <string name="text_helse_info">
+        God luftkvalitet er viktig for å bevare god helse.
+        Det finnes mange forskjellige luftforurensnings­komponenter,
+        inkludert ulike typer svevestøv og gasser,
+        som kan gi uønskede helseeffekter.
+        Et eksempel er fra London desember 1952, hvor ekstremt høye forurensnings­nivåer
+        førte til at flere tusen mennesker mistet  livet.
+
+    </string>
+
+    <string name="text_helse_">
+        Hendelsen gjorde det klart at både luftveis-­ og hjerte- og­
+        karsystemet kan påvirkes av luftforurensning, hvor barn,
+        eldre og individer med ulike luftveis-­ og hjerte- og­ karlidelser har størst risiko.
+        Hvilke responser som registreres i befolkningsstudier varierer, alt fra døde­lighet og
+        ulike typer sykdommer, til symptomer og plagethet. Dårlig luftkvalitet kan påvirke
+        livskvaliteten i befolkningen i form av plagethet.
+    </string>
+    <string name="text_helse_tittel_2">
+        Astma og luftveisallergi
+    </string>
+    <string name="text_helse_2">
+        Luftveisallergi kan opptre i øvre luftveier (allergisk rhinitt, høysnue) og
+        nedre luftveier (hovedsakelig astma). Ved allergisk rhinitt opptrer en
+        betennelses­tilstand i neseslimhinnen som gir tett eller rennende nese,
+        kløe rundt nesen og i ganen og episoder med kraftig nysing.
+    </string>
+    <string name="text_helse_tittel_1">
+        Lungekreft
+    </string>
+    <string name="text_helse_3">
+        Luftforurensning er i flere studier forbundet med utvikling av lungekreft.
+        Forurenset luft kan inneholde kreftfremkallende forbindelser, slik som PAH.
+        I tillegg til kreftfremkallende stoffer (gentoksiske) kan forbindelser med betennelsesfremmende
+        egenskaper påvirke …
+    </string>
+
+
+
+    <!-- KILDE INFORMASJON (FRAGMENT_KILDE)-->
+
+    <string name="text_kilde_info">
+        Utslipp av forurensende stoffer til luft kan ha lokale virkninger,
+        regionale problemer og globale skadevirkninger. Det finnes ulike kilder til de
+        ulike levlene av skadevirkninger, som påvirker med forskjellig effekt.
+
+    </string>
+
+    <string name="text_kilde_tittel_1">
+        Forbrenning og oppvarming
+    </string>
+    <string name="text_kilde_1">
+        Forbrenning og oppvarming bidrar til luftforurensning med utslipp
+        av SO2, NOx, sot, tungmetaller og tjærestoffer.
+        De viktigste kildene er olje-, ved- og kullfyring.
+    </string>
+    <string name="text_kilde_tittel_2">
+        Industri
+    </string>
+    <string name="text_kilde_2">
+        Fluoridutslippene fra aluminiumsverk har gjennom mange år vært det mest
+        omfattende industrielle luftforurensningsproblem i Norge. Utslipp fra
+        aluminiumsverk i trange fjorder har ført til fluorskader på vegetasjon
+        i nærområdene. Disse problemene er betydelig reduserte lokalt ved
+        effektiv rensing av utslippene. Metallproduksjon står for de største
+        utslippene av klimagasser fra industrien.
+    </string>
+    <string name="text_kilde_tittel_">
+        Utslipp fra veitrafikk
+    </string>
+
+    <string name="text_kilde_3">
+        Svevestøv fra eksos og oppvirvling av veistøv varierer med tid og sted.
+        I tørre perioder om vinteren og våren utgjør oppvirvling av
+        veistøv hovedandelen av konsentrasjonsnivået av svevestøv. Eksos fra
+        biltrafikk fører til NOx-utslipp, og er klart det viktigste
+        bidraget til konsentrasjonsnivåene av NO2. Dieselbiler har
+        høyere utslipp av både NOx og eksospartikler enn bensinbiler.
+    </string>
+
+
+    <!-- INFORMASJON OM ALLE PARTIKLER-->
+
+    <!-- SVEVESTØV INFORMASJON (FRAGMENT_SVEVESTØV)-->
+
+    <string name="text_svev_info">
+        Svevestøvet inndeles gjerne i størrelsesfraksjoner (PM100, PM10, PM2,5 eller PM0,1),
+        i henhold til partiklenes aerodynamiske diameter målt i mikrometer( μm ). Det er
+        ofte stor spredning i størrelse. Aerodynamikk danner grunnlaget for flyvning med
+        fartøyer som er tyngre enn luft. I Norge måles PM10 og PM2,5.
+
+    </string>
+
+    <string name="text_svev_tittel_1">
+        Svevestøv PM10
+    </string>
+    <string name="text_svev_1">
+        PM10 er alle partikler som er mindre enn 10 µm. Det betyr at svevestøv som inngår i PM2,5 også inngår i betegnelsen PM10.
+        I områder med lite forurensning ligger gjennomsnittskonsentrasjonen for svevestøv stort sett under 10 μg/m³.
+        Beregninger gjort i Nederland viser at omtrent 1 % av alle dødsfall er assosiert med akutt økt eksponering for PM10 (4).
+        \n \n
+        PM10: Asfalt-, bremse- og dekkslitasje, strøsand, vedfyring, industri, langtransportert bidrag
+    </string>
+    <string name="text_svev_tittel_2">
+        Svevestøv PM2,5
+    </string>
+    <string name="text_svev_2">
+        PM2,5 er alle partikler som er mindre enn 2,5 µm. Fraksjonen under 2,5 μm (finfraksjon)
+        er som oftest dominert av svevestøv fra forbrenningsprosesser. Ultrafine partikler
+        er enten partikler dannet ved kjemiske reaksjoner i atmosfæren eller primære forbrenningspartikler. 
+        \n \n
+        PM2,5: Vedfyring, eksosutslipp, industri, langtransportert bidrag
+    </string>
+
+
+    <!-- NITROGENDIOKSID INFORMASJON (FRAGMENT_NITROGENDIOKSID)-->
+
+    <string name="text_nitro_info">
+        Nitrogenmonoksid (NO) og nitrogendioksid (NO2) er
+        reaktive gasser som dannes ved høy temperatur i forbrenningsprosesser, og
+        disse har fellesbetegnelsen NOx. Hovedkilden til NO2 er veitrafikk, og dieselbiler
+        har et høyere utslipp enn bensinbiler, mens elbiler ikke slipper ut NO2.
+        Nivåene av NO2 i uteluft varierer betydelig i løpet av dagen, ved ulike årstider, år og steder.
+        \n \n
+        I de siste årene har studiet vist at det er blitt en reduksjon på NO.
+        Den registrerte nedgangen skyldes etter all sannsynlighet en
+        kombinasjon av utslippsreduksjoner som følge av en stadig
+        renere kjøretøypark (stadig flere elbiler og moderne lastebiler),
+        og relativt gunstige meteorologiske forhold.
+
+    </string>
+
+    <string name="text_nitro_tittel_1">
+        Helseeffekter
+    </string>
+    <string name="text_nitro_1">
+        Helseskadelige effekter av nitrogenoksider er først og fremst knyttet til NO2,
+        hvor svekket lungefunksjon og forverring av astma og bronkitt er de viktigste
+        helseeffektene. Kliniske studier har påvist svekket lungefunksjon og økt
+        luftveisreaktivitet hos astmatikere.
+        \n \n
+        NO2-eksponering fører til lipidperoksidering (en følge av oksidativ skade på
+        fett­stoffer i cellemembranen). Dette kan utløse betennelsesreaksjoner,
+        celledød og tap av funksjon i de områdene der celler dør. Noen områder i
+        lungene kan også bli mer mottagelige for effekter av annen luftforurensning.
+    </string>
+
+
+
+    <!-- SVOVELDIOKSID INFORMASJON (FRAGMENT_SVOVELDIOKSID)-->
+
+    <string name="text_svov_info">
+        De viktigste kildene til utslipp av SO2 har vært kull og
+        oljefyring i boliger, kraftstasjoner og industrianlegg. I tillegg forekommer Svoveldioksid også i gasser
+        som strømmer ut fra vulkaner og tilføres atmosfæren i større eller mindre mengder. Svoveldioksid er en
+        fargeløs gass som dannes ved at svovel brenner, gassen er fargeløs og gift.
+        Svoveldioksid reagerer med oksygen, og er lett løselig i vann. Dette gjør at
+        svoveldioksid kan medføre uønskede helseeffekter.
+
+        \n \n
+        Selv i ganske små konsentrasjoner virker svoveldioksid sterkt irriterende på øynenes og luftveienes slimhinner.
+        Allerede ved en konsentrasjon på ca. 100 ppm svoveldioksid i luften i et rom kan det vise seg umulig å oppholde
+        seg i rommet. Ved ca. 400 ppm SO2 kan det oppstå forgiftningssymptomer som for eksempel uklar
+        hornhinne, åndenød og kramper i bronkiene. På grunn av den karakteristiske, stikkende lukten kan svoveldioksid
+        merkes allerede ved konsentrasjoner på 10–20 ppm. Grenseverdi for SO2 i arbeidsmiljø
+        er satt til 2 mg/m3. Nærvær av støv bidrar til å forsterke virkningen av svoveldioksid.
+
+        \n \n
+        Særlig skadelig er svoveldioksid for planter og trær, spesielt ømfintlige er nåletrær.
+        En konsentrasjon på 1–2 ppm er tilstrekkelig til i løpet av få timer å forårsake skadevirkninger,
+        antagelig ved at fotosyntesen blir hindret. I tillegg vil utslipp av SO2 til atmosfæren utgjorde
+        et betydelig miljøproblem, vesentlig som en viktig årsak til sur nedbør. Se luftforurensning.
+    </string>
+
+
+    <!-- KARBONDIOKSID INFORMASJON (FRAGMENT_KARBONDIOKSID)-->
+
+    <string name="text_karb_info">
+        Karbondioksid er en kjemisk forbindelse av karbon og oksygen med kjemisk formel CO2,
+        den er en ikke-brennbar, sur og fargeløs gass med en svak syrlig lukt og smak.
+        Den løser seg lett opp i vann, hvor den også forekommer ofte, for eksempel i det som
+        i dagligtale kalles kullsyre i leskedrikker, men som er en uriktig betegnelse.
+
+        \n \n
+        CO2 er en viktig del av det globale karbonkretsløpet, samt en naturlig del av luften som en
+        viktig drivhusgass i atmosfæren: Menneskelig aktivitet, spesielt forbrenning av fossile energikilder.
+        Ved økning av forbrenning og menneskelig aktivitet resulterer dette  i en forsterkning av den naturlige drivhuseffekten, som i sin tur
+        er årsaken til dagens globale oppvarming. Ved forbrenning av stoffer som inneholder karbon med tilstrekkelig oksygen oppstår CO2.
+        Gassen oppstår også i organismer og levende vesener som et produkt av celleånding. Planter, algerer og noen bakterier
+        og arkebakterier konverterer CO2 etter fiksering i biomasse.
+
+        \n \n
+        Ved forbrenning av kull, petroleum og naturgass blir atmosfæren årlig tilført ca. 6 milliarder tonn karbondioksid,
+        og ved nåtidens intensive landbruk ca. 2 milliarder tonn. I den utstrekning dette ikke blir løst i hydrosfæren
+        eller forbrukt på annen måte, vil det øke karbondioksidinnholdet i atmosfæren, og dette vil igjen kunne få
+        innflytelse på klimatiske forhold (drivhuseffekt).
+
+    </string>
+
+    <!-- OZON INFORMASJON (FRAGMENT_OZON)-->
+
+    <string name="text_ozon_info">
+        Ozon er en blåfarget, giftig gass. Flytende ozon er mørkeblå, fast ozon er mørkfiolett.
+        Det er en form av oksygen der molekylene består av tre oksygenatomer.
+        Lukten av ozon kan merkes allerede ved en konsentrasjon på 0,01 ppm, og alt etter konsentrasjonen minner
+        lukten om nellik, høy, klor eller nitrogenoksid. I atmosfæren er det et lag av ozon, ozonlaget,
+        som beskytter livet på Jorden mot ultrafiolett stråling fra Sola.
+
+        \n \n
+
+        Normalt finnes 0,01–0,07 ppm ozon ved jordoverflaten. Lokalt kan det bli mer i fotokjemisk smog i stor biltrafikk.
+        Slik luftforurensning av ozon virker irriterende på øynene og slimhinnene og er ødeleggende for vegetasjonen.
+        I stratosfæren fører fotokjemiske reaksjoner mellom oksygen og nitrogenoksider til en stadig nydannelse av ozon.
+        Dette ozonet er ønskelig, siden det beskytter jordoverflaten mot ultrafiolett stråling.
+
+        \n \n
+
+        Ozonforgiftning forekommer i Norge oftest i forbindelse med sveising, særlig ved sveising på aluminium
+        og rustfritt stål. De kroniske virkninger er noe usikre, og det er akuttvirkningene som er viktigst.
+        Disse består av akutt luftveisirritasjon og i noen grad undertrykking av sentralnervesystem-funksjoner.
+        Ved lav eksponering er øyeirritasjon, sår hals, hodepine og moderat åndenød de hyppigste symptomer.
+        Administrativ norm for ozon i arbeidsmiljøet er 0,2 mg/m3 luft.
+    </string>
+
+
+    <!-- BENZEN INFORMASJON (FRAGMENT_BENZEN)-->
+
+    <string name="text_benzen_info">
+        Benzen er det enkleste aromatiske hydrokarbonet. Brenner med sterkt lysende og sotende flamme.
+        Uløselig i vann, men lett løselig i alkohol og eter. Benzen er et løsemiddel som finnes naturlig i olje og i bensin- og petroleumsprodukter.
+        Små mengder finnes også i eksos og røyk fra fossilt brensel, samt i tobakksrøyk.  Benzen er et godt løsemiddel for mange
+        uorganiske og organiske stoffer som fosfor, jod, svovel, fettstoffer, eteriske oljer, harpikser,
+        kautsjuk o.l., men denne bruken søkes begrenset pga. benzenets giftighet.
+
+    </string>
+
+    <string name="text_benzen_tittel_1">
+        Forgiftninger
+    </string>
+    <string name="text_benzen_1">
+        Benzen skader bloddannelsen og kan føre til blodmangel og eventuelt leukemi.
+        Det skal bare brukes industrielt i lukkede prosesser.
+        Symptomene og behandlingen ved akutt benzenforgiftning er som for de øvrige flyktige organiske løsemidler,
+        men pasienten bør følges opp over lengre tid med kontroll av mulig skade på bloddannelsen.
+        \n \n
+        Studie tyder på at kreftrisikoen øker i takt med økende benzeneksponering – selv ved benzennivåer
+        som ligger lavere enn dagens tillatte konsentrasjoner. I mer enn 100 år har man visst at benzen kan skade benmargen.
+        På 1920-tallet ble det første gang beskrevet leukemi (blodkreft) som man trodde skyldtes benzeneksponering.
+        I 1982 ble stoffet klassifisert som sikkert kreftfremkallende for mennesker, og det er godt dokumentert at
+        benzen kan forårsake akutt myelogen leukemi.
+
+    </string>
+
+</resources>
+
+

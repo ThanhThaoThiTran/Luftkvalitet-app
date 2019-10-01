@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Fargeinnstilling for bottom navigation selector. Hvis farge for selected og ikke selected -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true"
+          android:color="@color/FHIblaaVanlig" />
+    <item android:color="@color/buttonTextColor"  />
+</selector>

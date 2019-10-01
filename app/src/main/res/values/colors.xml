@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#58BAE0</color>
+    <color name="colorBlack">#000000</color>
+
+    <!-- Farger på selve layouten -->
+    <color name="layoutPrimary">#FFFFFF</color>
+    <color name="backgroundMood">#91C198</color>
+    <color name="buttonTextColor">#8E8B8B</color>
+
+    <color name="FHIrodBakgrunn">#FBF8F6</color>
+    <color name="FHIrodSignatur">#852712</color>
+    <color name="FHIblaaSignatur">#122397</color>
+    <color name="FHIblaaVanlig">#323559</color>
+    <color name="FHIgronn">#CFE4DB</color>
+
+    <color name="statusLite">#9EFDBF</color>
+    <color name="statusModerat">#FDF29E</color>
+    <color name="statusHoy">#FF6969</color>
+    <color name="statusAlvorlig">#58004E</color>
+</resources>

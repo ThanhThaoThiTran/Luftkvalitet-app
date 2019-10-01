@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".maalestasjon.MaalestasjonFragment"
+             android:background="@drawable/white_background"
+             android:fitsSystemWindows="true">
+
+
+    <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/white_background"
+            android:id="@+id/fragment_maalestasjon">
+
+        <View
+                android:layout_width="403dp"
+                android:layout_height="733dp"
+                android:id="@+id/bakgrunn_luftStatus"
+                android:background="@drawable/white_background"
+                android:layout_marginTop="8dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.727"
+                app:layout_constraintVertical_bias="0.47"/>
+
+        <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerView_maalestasjon"
+                android:scrollbars="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginTop="250dp"
+                android:layout_marginBottom="60dp"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintVertical_bias="0.207"/>
+
+        <TextView
+                android:text="@string/text_målestasjon"
+                android:layout_width="325dp"
+                android:layout_height="45dp"
+                android:id="@+id/textview_målestasjon"
+                android:layout_marginTop="56dp"
+                app:layout_constraintTop_toTopOf="@+id/bakgrunn_luftStatus"
+                app:layout_constraintStart_toStartOf="@+id/bakgrunn_luftStatus"
+                android:fontFamily="sans-serif-medium"
+                android:textSize="36sp"
+                app:layout_constraintEnd_toEndOf="@+id/bakgrunn_luftStatus"
+                android:textColor="@color/FHIblaaVanlig"/>
+        <TextView
+                android:layout_width="325dp"
+                android:layout_height="37dp"
+                android:id="@+id/textview_måleverdi"
+                android:textSize="24sp"
+                app:layout_constraintTop_toBottomOf="@+id/textview_målestasjon"
+                app:layout_constraintStart_toStartOf="@+id/bakgrunn_luftStatus"
+                app:layout_constraintEnd_toEndOf="@+id/bakgrunn_luftStatus"
+                android:textColor="@color/FHIblaaVanlig"/>
+
+        <TextView
+                android:text="@string/text_målestasjon"
+                android:layout_width="164dp"
+                android:layout_height="34dp"
+                android:id="@+id/textview_place"
+                android:textSize="24sp"
+                app:layout_constraintTop_toBottomOf="@+id/textview_målestasjon"
+                app:layout_constraintStart_toStartOf="@+id/bakgrunn_luftStatus"
+                app:layout_constraintEnd_toEndOf="@+id/bakgrunn_luftStatus"
+                android:textColor="@color/FHIblaaVanlig"
+                app:layout_constraintHorizontal_bias="0.46"/>
+
+        <TextView
+                android:text=","
+                android:layout_width="38dp"
+                android:layout_height="37dp"
+                android:id="@+id/textview_space"
+                android:textSize="24sp"
+                app:layout_constraintTop_toBottomOf="@+id/textview_målestasjon"
+                app:layout_constraintStart_toStartOf="@+id/bakgrunn_luftStatus"
+                app:layout_constraintEnd_toEndOf="@+id/bakgrunn_luftStatus"
+                android:textColor="@color/FHIblaaVanlig"
+                app:layout_constraintHorizontal_bias="0.254"/>
+
+        <TextView
+                android:text="@string/text_målestasjon_postCode"
+                android:layout_width="104dp"
+                android:layout_height="27dp"
+                android:id="@+id/textview_postCode"
+                android:textSize="24sp"
+                app:layout_constraintTop_toBottomOf="@+id/textview_målestasjon"
+                app:layout_constraintStart_toStartOf="@+id/bakgrunn_luftStatus"
+                app:layout_constraintEnd_toEndOf="@+id/bakgrunn_luftStatus"
+                android:textColor="@color/FHIblaaVanlig"
+                app:layout_constraintHorizontal_bias="0.133"/>
+
+        <View
+                android:src="@color/statusHoy"
+                android:layout_width="330dp"
+                android:layout_height="44dp"
+                android:id="@+id/imageview_luftstatusFargebar"
+                android:layout_marginTop="8dp"
+                android:layout_margin="5dp"
+                app:layout_constraintTop_toBottomOf="@+id/textview_måleverdi"
+                app:layout_constraintStart_toStartOf="@+id/bakgrunn_luftStatus"
+                app:layout_constraintEnd_toEndOf="@+id/bakgrunn_luftStatus"/>
+
+        <TextView
+                android:text="Dødelig"
+                android:layout_width="332dp"
+                android:layout_height="75dp"
+                android:id="@+id/txt_updateStatus"
+                android:textSize="18sp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@+id/imageview_luftstatusFargebar"
+                app:layout_constraintStart_toStartOf="@+id/bakgrunn_luftStatus"
+                app:layout_constraintEnd_toEndOf="@+id/bakgrunn_luftStatus"
+                android:layout_marginBottom="8dp"
+                app:layout_constraintBottom_toBottomOf="@+id/bakgrunn_luftStatus"
+                app:layout_constraintHorizontal_bias="0.528"
+                app:layout_constraintVertical_bias="0.006"
+                android:textColor="@color/FHIblaaVanlig"/>
+        <ImageButton
+                android:src="@android:drawable/ic_menu_add"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:scaleType="fitXY"
+                android:id="@+id/btn_addStation_fromMaalestasjon"
+                android:background="@drawable/white_background"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageview_luftstatusFargebar"
+                android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="@+id/bakgrunn_luftStatus"
+                app:layout_constraintVertical_bias="0.121" android:layout_marginRight="16dp"
+                android:layout_marginStart="348dp" app:layout_constraintStart_toStartOf="@+id/bakgrunn_luftStatus"/>
+
+
+    </android.support.constraint.ConstraintLayout>
+
+
+</FrameLayout>
